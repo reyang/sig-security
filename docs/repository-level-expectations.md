@@ -8,10 +8,10 @@ repositories. The target audiences are the OpenTelemetry project maintainers.
 
 Here are the levels of expectations:
 
-* No Clear Expectation
-* Low Expectation
-* Medium Expectation
-* High Expectation
+- [No Clear Expectation](#no-clear-expectation)
+- [Low Expectation](#low-expectation)
+- [Medium Expectation](#medium-expectation)
+- [High Expectation](#high-expectation)
 
 ## No Clear Expectation
 
@@ -26,21 +26,21 @@ Expectation.
 A repository is considered to meet the Low Expectation if all the conditions are
 met:
 
-* The repository maintainers (all of them) have provided their `slackMemberId`
+- The repository maintainers (all of them) have provided their `slackMemberId`
   in the
   [`community/people.yml`](https://github.com/open-telemetry/community/blob/main/people.yml)
   file.
-* The repository allows anyone who has a GitHub account to create security
+- The repository allows anyone who has a GitHub account to create security
   advisories.
-* The repository allows anyone who has a GitHub account to create public issues.
-* The repository contains a top-level `SECURITY.md` file.
-* The repository's top-level `README.md` file has a security section which
+- The repository allows anyone who has a GitHub account to create public issues.
+- The repository contains a top-level `SECURITY.md` file.
+- The repository's top-level `README.md` file has a security section which
   points to the `SECURITY.md` file.
-* The `SECURITY.md` file has clearly explained which artifacts, services and/or
+- The `SECURITY.md` file has clearly explained which artifacts, services and/or
   websites are covered by the repository.
-* The `SECURITY.md` file has explained how to raise security advisories and
+- The `SECURITY.md` file has explained how to raise security advisories and
   issues.
-* The `SECURITY.md` file has explicited called out that the repository meets the
+- The `SECURITY.md` file has explicited called out that the repository meets the
   `Low Expectation` level as defined here, with a link to this section.
 
 ## Medium Expectation
@@ -48,15 +48,15 @@ met:
 A repository is considered to meet the Medium Expectation if all the conditions
 are met:
 
-* The repository meets or exceeds the [Low Expectation](#low-expectation).
-* All GitHub Actions are using pinned version, an insecure version would be
+- The repository meets or exceeds the [Low Expectation](#low-expectation).
+- All GitHub Actions are using pinned version, an insecure version would be
   updated in less than 7 days since the patched version became available.
-* Security advisories and issues will be acknowledged and updated with at
+- Security advisories and issues will be acknowledged and updated with at
   maximium 3 days delay.
-* All vulnerabilities are evaluated within 7 days of detection/report.
-* `Critical` level vulnerabilities are mitigated/resolved within 15 days.
-* `High` level vulnerabilities are mitigated/resolved within 30 days.
-* Vulnerabilities with severity level lower than `High` are mitigated/resolved
+- All vulnerabilities are evaluated within 7 days of detection/report.
+- `Critical` level vulnerabilities are mitigated/resolved within 15 days.
+- `High` level vulnerabilities are mitigated/resolved within 30 days.
+- Vulnerabilities with severity level lower than `High` are mitigated/resolved
   within 60 days.
 
 ## High Expectation
@@ -64,9 +64,9 @@ are met:
 A repository is considered to meet the High Expectation if all the conditions
 are met:
 
-* The repository meets or exceeds the [Medium Expectation](#medium-expectation).
-* Security advisories and issues will be acknowledged and updated with at
+- The repository meets or exceeds the [Medium Expectation](#medium-expectation).
+- Security advisories and issues will be acknowledged and updated with at
   maximium 2 days delay.
-* `High` level vulnerabilities are mitigated/resolved within 15 days.
-* Vulnerabilities with severity level lower than `High` are mitigated/resolved
+- `High` level vulnerabilities are mitigated/resolved within 15 days.
+- Vulnerabilities with severity level lower than `High` are mitigated/resolved
   within 30 days.
