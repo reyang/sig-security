@@ -51,6 +51,11 @@ are met:
 - The repository meets or exceeds the [Low Expectation](#low-expectation).
 - All GitHub Actions are using pinned version, an insecure version would be
   updated in less than 7 days since the patched version became available.
+- The repository has onboarded to the [OpenSSF
+  Scorecard](../security-dashboard.md), and the score it greater than or equal
+  to `8.0`.
+- Any individual maintainer cannot release a new version of the artifact without
+  the approval of at least one other maintainer or approver.
 - Security advisories and issues will be acknowledged and updated with at
   maximium 3 days delay.
 - All vulnerabilities are evaluated within 7 days of detection/report.
