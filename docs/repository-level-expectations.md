@@ -58,6 +58,8 @@ are met:
 - `High` level vulnerabilities are mitigated/resolved within 30 days.
 - Vulnerabilities with severity level lower than `High` are mitigated/resolved
   within 60 days.
+- The `SECURITY.md` file has explicited called out that the repository meets the
+  `Medium Expectation` level as defined here, with a link to this section.
 
 ## High Expectation
 
@@ -70,3 +72,5 @@ are met:
 - `High` level vulnerabilities are mitigated/resolved within 15 days.
 - Vulnerabilities with severity level lower than `High` are mitigated/resolved
   within 30 days.
+- The `SECURITY.md` file has explicited called out that the repository meets the
+  `High Expectation` level as defined here, with a link to this section.
