@@ -1,6 +1,6 @@
 # Repository Level Expectations
 
-OpenTelemetry is a big project which contains multiple repositories. Each
+OpenTelemetry is a large project which contains multiple repositories. Each
 repository has a list of
 [maintainers](https://github.com/open-telemetry/community/blob/main/guides/contributor/membership.md#maintainer).
 This document defines the security expectations for all the OpenTelemetry public
